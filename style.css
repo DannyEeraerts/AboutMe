@@ -37,6 +37,4 @@ section.left, section.right{
 }
 img{
     border: solid 2px white;
-    border-radius: 30px;
-    width: 7rem;
 }
