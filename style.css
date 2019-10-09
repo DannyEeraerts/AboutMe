@@ -22,19 +22,105 @@ main{
 section.left{
     background-color: var(--color-lightgrey);
     flex-basis: 25%;
-    margin: 1rem;
+}
+section.right{
+    flex-basis: 75%;
 }
 h1{
+    margin: 0;
     font-size: 4rem;
+    line-height: 0.85;
 }
 h3{
     text-transform: uppercase;
-    margin: 0.5rem 0;
+    margin: 0.5rem 0 1rem 0;
     font-size: 2rem;
+    border-bottom: solid 1px var(--text-color);
 }
-section.left, section.right{
-    margin: 1.5rem;
+section.left{
+    padding: 1.5rem;
+}
+section.right{
+    padding: 1.5rem 1.5rem 1.5rem 4rem;
+}
+.image{
+    width: 100%;
+    text-align: center;
 }
 img{
-    border: solid 2px white;
+    width: 66%;
+    text-align: center;
+    border: solid 2.5px white;
+    border-radius: 35%;
+}
+.bold{
+    font-weight: bold;
+}
+.capital{
+    text-transform: uppercase;
+}
+p{
+    margin: 0.75rem auto;
+}
+i{
+    margin-right: 1.5rem;
+    margin-left: 0.25rem;
+    transform: scale(1.5);
+}
+.distance{
+    margin-left: 2.5rem;
+    margin-top: -0.5rem;
+}
+.marge{
+    margin-bottom: 0;
+}
+.box{
+    height: 0;
+    width: 0;
+    border: solid 8px black;
+}
+blockquote {
+    color: var(--color-orange);
+    font-style: italic;
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+hr{
+    color: black;
+    height: 0.5px;
+}
+.studies{
+    text-transform:  uppercase;
+    font-weight: bold;
+}
+ .sub-education{
+    display: flex;
+    flex-direction: row; 
+}
+.studies, .places{
+    flex-basis: 50%;
+}
+.places{
+    text-align: right;
+}
+.arrow{
+    background-color: var(--text-color);
+    color: var(--background);
+    margin: 1rem 0;
+    padding: 1rem;
+    width: 40%;
+}
+/* .arrow::after{
+    content: "";
+    color: var(--background);
+} */
+.arrow-right{
+    width: 0; 
+    height: 0; 
+    border-top: 2.5rem solid transparent;
+    border-bottom: 2.5rem solid transparent;
+    border-left: 2.5rem solid var(--text-color);
+}
+.arrow-box{
+    display: flex;
 }
