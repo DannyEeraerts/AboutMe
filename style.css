@@ -1,0 +1,25 @@
+:root{
+    --background: #FFFAF0;
+    --text-color: #33230a;
+    --color-lightgrey: #dadada;
+    --color-darkgrey: #7e7c7c;
+    --color-orange: rgb(216, 140, 41);
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFAF0;
+    font-family: roboto, sans-serif;
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 3em;
+}
+section.left{
+    color: var(--lightgrey);
+    width: 30%;
+}
