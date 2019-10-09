@@ -35,3 +35,8 @@ h3{
 section.left, section.right{
     margin: 1.5rem;
 }
+img{
+    border: solid 2px white;
+    border-radius: 30px;
+    width: 7rem;
+}
