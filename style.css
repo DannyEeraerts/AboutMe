@@ -93,7 +93,7 @@ hr{
     text-transform:  uppercase;
     font-weight: bold;
 }
- .sub-education{
+ .sub-education, .sub-work{
     display: flex;
     flex-direction: row; 
 }
@@ -103,24 +103,105 @@ hr{
 .places{
     text-align: right;
 }
+.year{
+    flex-basis: 30%;
+}
+.work-description{
+    flex-basis: 70%
+}
+.year, .work-description{
+    align-self: flex-start;
+}
 .arrow{
     background-color: var(--text-color);
     color: var(--background);
-    margin: 1rem 0;
-    padding: 1rem;
-    width: 40%;
+    margin: 1.5rem 0;
+    padding: 0.4rem;
+    width: 50%;
+    position: relative;
 }
-/* .arrow::after{
-    content: "";
-    color: var(--background);
-} */
+.arrow::after{
+   content: '';
+   display: inline-block;
+   width: 0.85rem;
+   height: 0.85rem;
+   -moz-border-radius: 1rem;
+   -webkit-border-radius: 1remx;
+   border-radius: 50%;
+   background-color: var(--background);
+   margin-left: 1rem;
+} 
 .arrow-right{
     width: 0; 
     height: 0; 
-    border-top: 2.5rem solid transparent;
-    border-bottom: 2.5rem solid transparent;
+    border-top: 2rem solid transparent;
+    border-bottom: 2rem solid transparent;
     border-left: 2.5rem solid var(--text-color);
+    margin-top: 0.5rem;
 }
 .arrow-box{
     display: flex;
 }
+.work-description p{
+    margin: 0;
+}
+.container {
+    width: 100%;
+    background-color: var(--color-lightgrey);
+    margin-bottom: 0.5rem;
+}
+.bar {
+    text-align: right;
+    padding-top: 0.20rem;
+    padding-bottom: 0.20rem;
+    color: var(--background);
+}
+.lightroom {
+    width: 85%;
+    background-color: var(--text-color);
+}
+.photoshop {
+    width: 85%;
+    background-color: var(--text-color);
+}
+.illustrator {
+    width: 50%;
+    background-color: var(--text-color);
+}
+.indesign {
+    width: 50%;
+    background-color: var(--text-color);
+}
+.iwork {
+    width: 85%;
+    background-color: var(--text-color);
+}
+.acrobat {
+    width: 85%;
+    background-color: var(--text-color);
+}
+.xd {
+    width: 85%;
+    background-color: var(--text-color);
+}
+.html {
+    width: 85%;
+    background-color: var(--text-color);
+}
+.css {
+    width: 75%;
+    background-color: var(--text-color);
+}
+.javascript {
+    width: 50%;
+    background-color: var(--text-color);
+}
+.php {
+    width: 75%;
+    background-color: var(--text-color);
+}
+.sql {
+    width: 90%;
+    background-color: var(--text-color);
+}
+  
