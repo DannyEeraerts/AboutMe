@@ -38,6 +38,7 @@ h3{
     border-bottom: solid 1px var(--text-color);
 }
 .left h3{
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 section.left{
@@ -47,6 +48,7 @@ section.right{
     padding: 1.5rem 1.5rem 1.5rem 4rem;
 }
 .image{
+    margin-top: 1rem;
     width: 100%;
     text-align: center;
 }
@@ -66,7 +68,7 @@ img{
 p{
     margin: 0.75rem auto;
 }
-a{
+footer a{
     background-color: var(--text-color);
     color: var(--background);
     padding: 1rem 2rem;
@@ -78,7 +80,7 @@ a{
 }
 footer{
     text-align: center;
-    margin: 3rem auto;
+    margin: 5rem auto;
 }
 i{
     margin-right: 1.5rem;
@@ -88,7 +90,9 @@ i{
 i.fa-map-marker-alt{
     color: red;
 }
-
+i.fa-map-marker-alt:hover{
+    color:greenyellow;
+}
 .distance{
     margin-left: 2.5rem;
     margin-top: -0.5rem;
@@ -122,18 +126,17 @@ blockquote {
     margin-top: 0;
 }
 .arrow-box{
-    flex-basis: 30%;
+    flex-basis: 20%;
 }
 .subwork{
-    flex-basis: 70%
+    flex-basis: 80%
 }
-
 .arrow{
     background-color: var(--text-color);
     color: var(--background);
     margin: 1.5rem 0;
     padding: 0.4rem;
-    width: 50%;
+    width: 75%;
     position: relative;
 }
 .arrow::after{
@@ -181,9 +184,9 @@ blockquote {
 .lr::before{
     content:"";
     background-image: url('images/Lightroom.png');
-    background-size: 1.6rem 1.6rem;
-    width: 1.6rem; 
-    height: 1.6rem;
+    background-size: 1.75rem 1.75rem;
+    width: 1.75rem; 
+    height: 1.75rem;
     margin-right: 0.5rem;
 }
 .photoshop {
@@ -193,9 +196,9 @@ blockquote {
 .ph::before{
     content:"";
     background-image: url('images/photoshop.png');
-    background-size: 1.6rem 1.6rem;
-    width: 1.6rem; 
-    height: 1.6rem;
+    background-size: 1.75rem 1.75rem;
+    width: 1.75rem; 
+    height: 1.75rem;
     margin-right: 0.5rem;
 }
 .illustrator {
@@ -205,9 +208,9 @@ blockquote {
 .il::before{
     content:"";
     background-image: url('images/illustrator.png');
-    background-size: 1.6rem 1.6rem;
-    width: 1.6rem; 
-    height: 1.6rem;
+    background-size: 1.75rem 1.75rem;
+    width: 1.75rem; 
+    height: 1.75rem;
     margin-right: 0.5rem;
 }
 .indesign {
@@ -217,9 +220,9 @@ blockquote {
 .id::before{
     content:"";
     background-image: url('images/Indesign.png');
-    background-size: 1.6rem 1.6rem;
-    width: 1.6rem; 
-    height: 1.6rem;
+    background-size: 1.75rem 1.75rem;
+    width: 1.75rem; 
+    height: 1.75rem;
     margin-right: 0.5rem;
 }
 .iwork {
@@ -229,9 +232,9 @@ blockquote {
 .iw::before{
     content:"";
     background-image: url('images/iwork-icon.jpg');
-    background-size: 1.6rem 1.6rem;
-    width: 1.6rem; 
-    height: 1.6rem;
+    background-size: 1.75rem 1.75rem;
+    width: 1.75rem; 
+    height: 1.75rem;
     margin-right: 0.5rem;
 }
 
@@ -242,9 +245,9 @@ blockquote {
 .ac::before{
     content:"";
     background-image: url('images/adobe_pdf.png');
-    background-size: 1.6rem 1.6rem;
-    width: 1.6rem; 
-    height: 1.6rem;
+    background-size: 1.75rem 1.75rem;
+    width: 1.75rem; 
+    height: 1.75rem;
     margin-right: 0.5rem;
 }
 .xd {
@@ -254,9 +257,9 @@ blockquote {
 .adobexd::before{
     content:"";
     background-image: url('images/adobe-XD.png');
-    background-size: 1.6rem 1.6rem;
-    width: 1.6rem; 
-    height: 1.6rem;
+    background-size: 1.75rem 1.75rem;
+    width: 1.75rem; 
+    height: 1.75rem;
     margin-right: 0.5rem;
 }
 .html {
@@ -266,9 +269,9 @@ blockquote {
 .htmlicon::before{
     content:"";
     background-image: url('images/html.png');
-    background-size: 1.6rem 1.6rem;
-    width: 1.6rem; 
-    height: 1.6rem;
+    background-size: 1.75rem 1.75rem;
+    width: 1.75rem; 
+    height: 1.75rem;
     margin-right: 0.5rem;
 }
 .css {
@@ -278,9 +281,9 @@ blockquote {
 .cssicon::before{
     content:"";
     background-image: url('images/css.png');
-    background-size: 1.6rem 1.6rem;
-    width: 1.6rem;
-    height: 1.6rem;
+    background-size: 1.75rem 1.75rem;
+    width: 1.75rem;
+    height: 1.75rem;
     margin-right: 0.5rem;
 }
 .javascript {
@@ -290,9 +293,9 @@ blockquote {
 .js::before{
     content:"";
     background-image: url('images/javascript.png');
-    background-size: 1.6rem 1.6rem;
-    width: 1.6rem; 
-    height: 1.6rem;
+    background-size: 1.75rem 1.75rem;
+    width: 1.75rem; 
+    height: 1.75rem;
     margin-right: 0.5rem;
 }
 .php {
@@ -302,9 +305,9 @@ blockquote {
 .phpicon::before{
     content:"";
     background-image: url('images/php.png');
-    background-size: 1.6rem 1.6rem;
-    width: 1.6rem; 
-    height: 1.6rem;
+    background-size: 1.75rem 1.75rem;
+    width: 1.75rem; 
+    height: 1.75rem;
     margin-right: 0.5rem;
 }
 .sql {
@@ -314,49 +317,48 @@ blockquote {
 .sqlicon::before{
     content:"";
     background-image: url('images/sql.png');
-    background-size: 1.6rem 1.6rem;
-    width: 1.6rem; 
-    height: 1.6rem;
+    background-size: 1.75rem 1.75rem;
+    width: 1.75rem; 
+    height: 1.75rem;
     margin-right: 0.5rem;
 }
-
+.wordcloud{
+    text-align: center;
+}
 .cloud p{
     display: inline;
-    padding: 1rem;
+    padding: 0 2rem;
+    line-height: 80%;
 }
 .cloud p:first-of-type {
-    font-size: 3em;
+    font-size: 2.5vw;
     color: var(--color-darkgrey);
+    letter-spacing: 0.5rem;
 }
 .cloud p:nth-of-type(2){
-    font-size: 6em;
-}
-.cloud p:nth-of-type(4){
-    font-size: 2.75em;
-    color: var(--color-lightgrey);
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    transform: rotate(180deg);
+    font-size: 4.5vw;
 }
 .cloud p:nth-of-type(3){
-    font-size: 2em;
+    font-size: 2.15vw;
+}
+.cloud p:nth-of-type(4){
+    font-size: 2.5vw;
+    color: var(--color-lightgrey);
 }
 .cloud p:nth-of-type(5){
-    font-size: 3em;
+    font-size: 4.5vw;
     color: var(--color-darkgrey);
-}j
+}
 .cloud p:nth-of-type(6){
-    font-size: 5.75em;
+    font-size: 2vw;
+    letter-spacing: 1em;
 }
 .cloud p:nth-of-type(7){
-    font-size: 4.5em;
+    font-size: 2.5em;
     color: var(--color-lightgrey);
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-    transform: rotate(180deg);
 }
 .cloud p:nth-of-type(8){
-    font-size: 8em;
+    font-size: 9vw;
 }
 iframe{
     width: 80% ;
