@@ -1,4 +1,9 @@
 window.onload=function() {
     const mapicon = document.querySelector(".fa-map-marker-alt");
-    console.log(mapicon);
+    
+    function showmap(){
+        mapicon.classList.toggle('show');
+    }
+
+    mapicon.addEventListener("click", showmap);
 }
