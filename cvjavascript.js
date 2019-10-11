@@ -6,10 +6,8 @@ window.onload=function() {
 
     function showmap(){
         //toggle class
-        console.log(frame);
         frame.classList.toggle('show');
         a = frame.classList.toggle('show');
-        console.log(a);
         if (frame.classList.toggle('show')){
             frame.classList.add('show');
         }
