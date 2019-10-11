@@ -245,7 +245,7 @@ blockquote {
 }
 .iw::before{
     content:"";
-    background-image: url('images/iwork-icon.jpg');
+    background-image: url('images/iwork-icon.jng');
     background-size: 1.75rem 1.75rem;
     width: 1.75rem; 
     height: 1.75rem;
