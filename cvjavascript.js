@@ -1,24 +1,20 @@
-window.onload=function() {
-    const mapicon = document.querySelector(".fa-map-marker-alt");
-    console.log(mapicon);
-    const frame = document.querySelector(".map");
-    console.log(frame);
+const mapButtonQuerySelector = ".fa-map-marker-alt";
+const mapQuerySelector=".map";
 
-    function showmap(){
-        //toggle class
-        console.log(frame);
-        frame.classList.toggle('show');
-        a = frame.classList.toggle('show');
-        console.log(a);
-        if (frame.classList.toggle('show')){
-            frame.classList.add('show');
-        }
-        else {
-            frame.classList.remove('show');
-        }
-        };
 
-        //event listener that will change the css class of the html object frame.    
-    
-        mapicon.addEventListener("click", showmap);
- }
+
+function toggleClassOnNode(selector, className) {
+    const item = document.querySelector(selector);
+    item.classList.toggle(className);
+  }
+
+
+// https://gomakethings.com/listening-for-click-events-with-vanilla-javascript/
+
+  document.addEventListener('click', function (event) {
+
+    if (event.target.matches(mapButtonQuerySelector)){
+
+        toggleClassOnNode(mapQuerySelector, "show");
+    } 
+}, false);
