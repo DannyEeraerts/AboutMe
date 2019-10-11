@@ -379,7 +379,7 @@ blockquote {
     transform: translate(-50%, -50%);
     display: none;
 }
-.map .show{
+.map.show{
     display: block !important;
 }
 
