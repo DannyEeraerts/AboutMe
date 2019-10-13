@@ -1,9 +1,10 @@
 window.onload=function() {
 
 const mapTriggerIcon = document.querySelector('.fa-map-marker-alt');
+const mapNode = document.querySelector('.map');
+
 
 function showMap(){
-    let mapNode = document.querySelector('.map');
     mapNode.classList.toggle("show");
 }
 
