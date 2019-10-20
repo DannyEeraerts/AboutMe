@@ -70,6 +70,9 @@ img{
 p{
     margin: 0.75rem auto;
 }
+.sub-education p {
+    margin: 0.5rem auto;
+}
 footer a{
     text-decoration: none;
     background-color: var(--text-color);
@@ -358,44 +361,7 @@ blockquote {
     height: 1.75rem;
     margin-right: 0.5rem;
 }
-.wordcloud{
-    text-align: center;
-}
-.cloud p{
-    display: inline;
-    padding: 0 2rem;
-    line-height: 80%;
-}
-.cloud p:first-of-type {
-    font-size: 2.5vw;
-    color: var(--color-darkgrey);
-    letter-spacing: 0.5rem;
-}
-.cloud p:nth-of-type(2){
-    font-size: 4.5vw;
-}
-.cloud p:nth-of-type(3){
-    font-size: 2.15vw;
-}
-.cloud p:nth-of-type(4){
-    font-size: 2.5vw;
-    color: var(--color-lightgrey);
-}
-.cloud p:nth-of-type(5){
-    font-size: 4.5vw;
-    color: var(--color-darkgrey);
-}
-.cloud p:nth-of-type(6){
-    font-size: 2vw;
-    letter-spacing: 1em;
-}
-.cloud p:nth-of-type(7){
-    font-size: 2.5em;
-    color: var(--color-lightgrey);
-}
-.cloud p:nth-of-type(8){
-    font-size: 9vw;
-}
+
 .map{
     width: 80% ;
     height: 80vh;
@@ -412,6 +378,119 @@ blockquote {
     border-left: solid 2px var(--text-color);
     padding-left: 1rem;
 }
+.personal{
+    display: grid;
+    grid-template-columns: repeat(21, 1fr);
+    grid-template-rows: repeat(4, 8vh);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    align-items: center;
+    }
+.one{grid-area: 1 / 1 / 2 / 14; }
+.two{grid-area: 1 /14/ 1 / 21}
+.three { grid-area: 2 / 3 / 4 / 12; }
+.four { grid-area: 2 / 1 / 5 / 3; }
+.five { grid-area: 2 / 12 / 4 / 12; }
+.six { grid-area: 2 / 13/ 4 / 21}
+.seven {grid-area: 1/ 21 / 4 /22}
+.eight{grid-area: 4 / 3 / 5 /22}  
+ 
+.cloud{
+    text-align: center;
+}
+.cloud div:first-of-type {
+    font-size: 3.5vw;
+    color: var(--color-darkgrey);
+    letter-spacing: 0.75vw;
+    margin-right: 1vw;
+}
+.cloud div:nth-of-type(2){
+    font-size: 4.5vw;
+    letter-spacing: 0.5vw;
+    margin-right: 1vw;
+}
+.cloud div:nth-of-type(3){
+    font-size: 4vw;
+}
+.cloud div:nth-of-type(3) p:nth-of-type(2){
+    letter-spacing: 0.3rem;
+    margin-left: 0.25rem;
+}
+.cloud div:nth-of-type(4){
+    font-size: 5.5vw;
+    color: var(--color-lightgrey);
+    letter-spacing: 0.75rem;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+
+}
+.cloud div:nth-of-type(5){
+    font-size: 2.7vw;
+    letter-spacing: 0.15rem;
+    color: var(--color-darkgrey);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+}
+.cloud div:nth-of-type(6){
+    font-size: 3vw;
+    letter-spacing: 1.5rem;
+    line-height: 4.5rem;
+}
+.cloud div:nth-of-type(7){
+    font-size: 2vw;
+    color: var(--color-lightgrey);
+    letter-spacing: 1rem;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-top: 1.5rem;
+}
+.cloud div:nth-of-type(8){
+    font-size: 6.85vw;
+    letter-spacing: 1.25vw;
+    padding-left: 0.75vw;
+}
+.one p{
+    white-space: nowrap
+}
+.personal p{
+    margin: 0;
+}
+/* .all{
+    align-self: stretch;
+    justify-self: stretch;
+} */
+
+/* .personal .one{
+    background-color: #fd7e14;
+    opacity: 0.5;
+}
+.personal .two{
+    background-color: blueviolet;
+    opacity: 0.5;
+}
+.personal .three{
+    background-color: yellowgreen;
+    opacity: 0.5;
+}
+.personal .four{
+    background-color: rosybrown;
+    opacity: 0.5;
+}
+.personal .five{
+    background-color: thistle;
+    opacity: 0.5;
+}
+.personal .six{
+    background-color: turquoise;
+    opacity: 0.5;
+}
+.personal .seven{
+    background-color: papayawhip;
+    opacity: 0.5;
+}*/
+
 @media only screen and (max-width: 768px) {
     main {
        margin: 0.5rem;  
@@ -440,8 +519,25 @@ blockquote {
     .subwork{
         flex-basis: 60%
     }
+    /* .test{
+        display: grid;
+        grid-template-columns: repeat(22, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        justify-content: stretch;
+        align-items: stretch;
+        }
+            .one{ grid-area: 1 / 1 / 2 / 12; }
+            .two{ grid-area: 1 /12/ 2 / 21}
+            .three { grid-area: 2 / 3 / 4 / 11; }
+            .four { grid-area: 2 / 1 / 5 / 3; }
+            .five { grid-area: 2 / 11 / 4 / 22; }
+            .six { grid-area: 2 / 12 / 4 / 21}
+            .seven {grid-area: 3/ 13 / 2 /22}
+            .eight{ grid-area: 4 / 3 / 5 / 13; }    
+    } */
     
-}
 
 
 
