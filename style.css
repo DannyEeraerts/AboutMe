@@ -66,8 +66,21 @@ i,.color
   justify-content: space-between;
 }
 @media only screen and (max-width: 600px) {
+  body{
+    margin:0.25rem;
+  }
   #header {
     flex-direction: column;
+  }
+  footer {
+    flex-direction: column;
+  }
+  p{
+    font-size: 0.75rem;
+  }
+  h1{
+    font-size: 2em;
+    line-height: 2em;
   }
 }
 nav{
